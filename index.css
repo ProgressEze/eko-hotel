@@ -1,0 +1,964 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+/* --------TITLE HEADER FOR EACH SECTION-------- */
+
+.section1-about {
+    padding-top: 80px;
+    padding-bottom: 10px;
+
+}
+
+.section1-about .header1{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+.section1-about .title{
+    display: inline-block;
+    width: 95%;
+    
+}
+
+.section1-about h1{
+    font-size: 2.9rem;
+    margin-top: 20px;
+    color: #cda274;
+    font-weight: normal;
+}
+
+.section1-about h1 strong{
+    color: #05303f;
+}
+
+.section1-about .divider{
+    margin: 30px 0;
+}
+
+
+.section1-about .line1{
+    width: 50px;
+    height: 1px;
+    background-color: #cda274;
+    border: 0;
+}
+
+.divider .top{
+    margin-bottom: 0;
+}
+.divider .bottom{
+    margin-top: 0;
+}
+
+.section1-about .line2{
+    width: 220px;
+    background-color: #cda274;
+    border: 0;
+    height: 1px;
+    margin: 5px auto;
+    
+}
+
+/* ---------BROWN btn------------ */
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    background-color: #cda274;
+}
+
+.btn:hover{
+    box-shadow: none;
+    font-weight: bold;
+    color: #05303f;
+    background-color: #ffffff;
+    border: 1px solid #05303f;
+}
+
+
+/* -----------NAVBER SECTION------ */
+
+.header{
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, .1) ;
+    margin-bottom: 50px;
+    height: 100px;
+}
+
+
+.left,
+.right{
+    display: flex;
+}
+
+.left{
+    margin-left: 80px;
+}
+
+.right{
+    margin-right: 80px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.droupdown{
+    font-weight: lighter;
+    font-family: sans-serif;
+    display: inline-block;
+    perspective: 1000px; 
+    
+}
+
+.droupdown a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 10px 25px;
+    margin: 10px 20px 0;
+    color: #043040;
+    letter-spacing: 2px;
+
+}
+
+.droupdown a:hover,
+.droupdown-container li:hover{
+    color: rgb(173, 92, 92);
+}
+
+.droupdown-container li:hover{
+    box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, .1) ;
+}
+
+.droupdown-container{
+    display: none;
+    background-color: #fff;
+    list-style-type: none;
+    min-width: 160px;
+    padding: 10px;
+    z-index: 1;
+    box-shadow: 3px 3px 9px 2px rgba(0, 0, 0, .1) ;
+    border: 1px solid rgba(0, 0, 0, .2) ;
+    border-radius: 0 0 5px 5px;
+
+}
+.droupdown-container li{
+    color: #043040;
+    margin: 5px 0;
+    padding: 10px 15px;
+    line-height: 1.7;
+}
+
+.droupdown:hover .droupdown-container{
+    display: block;
+} 
+
+nav img{
+    width: 250px;
+    margin-top: 10px;
+    
+}
+
+
+/* --------MAIN BODY SECTION------ */
+.main{
+    color: #fff;
+}
+
+.main-img{
+    height: 800PX;
+    width: 100%;
+}
+.main-img .photo{
+    background-image: url(images/main\ image.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-body{
+    background-color: #043040;
+    height: 310px;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.inner{
+    width: 90%;
+    margin:  60px auto 0;
+
+
+}
+
+.flex-container2{
+    display: flex;
+    justify-content: center;
+}
+
+.main .flex-item{
+    text-align: center;
+    padding: 0 50px;
+    font-family: serif;
+    
+}
+
+
+.main .flex-item label{
+    color:#cda274;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.main .flex-item h1{
+    font-size: 1.9rem;
+    margin-top: 15px;
+    font-weight: lighter;
+
+}
+
+.main .flex-item .dark-brown{
+    color:#50473e;
+    letter-spacing: 3px;
+}
+
+.main .btn1{
+    text-align: center;
+    
+}
+.main .btn1 button{
+    padding: 15px;
+    letter-spacing: 3px;
+    color:  #ffffff;
+    font-weight: bold;
+    background-color: #cda274;
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-left: 60px;
+}
+
+.main .btn1 button:hover{
+    color: #07212b;
+}
+
+.main .flex-item .pointer:hover,
+.btn button:hover{
+    cursor: pointer;
+}
+
+
+
+/* ---------SECTION1 ABOUT--------- */
+
+
+/* ---------ABOUT-BODY---------- */
+
+.flex-body{
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.about img{
+    width: 800px;
+    height: 600px;
+    margin-left: 15px;
+}
+
+.about .img{
+    width: 820px;
+}
+
+.about .body{
+    width: 780px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 50px;
+    padding: 40px ;
+    box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, .1) ;
+}
+
+.about .about-us{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #cda274;
+}
+
+.about .body h3{
+    font-size: 2.3rem;
+    color: #05303f;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.about .body .paragraph{
+    line-height: 1.7;
+    font-size: 19px;
+}
+
+
+/* --------- SECTION2 BEST-ROOMS-------- */
+
+.best-rooms{
+    background: linear-gradient(-45deg, white 50%, #f8f8f8 50%);
+    background-image: linear-gradient(-45deg, white 50%, rgb(248, 248, 248,) 50%);
+    border-top: 1px solid #e9e9e9 ;
+    border-bottom: 1px solid #e9e9e9 ;
+    padding-bottom: 100px;
+} 
+
+.best-rooms .body{
+    width: 80%;
+    margin:auto auto 60px;
+}
+
+.best-rooms .body .flex-body1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-rooms .body .body1{
+    margin-bottom: 23px;
+}
+
+.best-rooms .photos{
+    display: inline-block;
+    width: 47%;
+    height: 450px;
+    padding-left: 30px;
+}
+
+.best-rooms .body p{
+    width: 90%;
+    margin: 100px auto 100px 0;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.best-rooms a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #cc8a43;
+    font-weight: bold;
+}
+
+.best-rooms h2{
+    color: #ffffff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cda274;
+    width: 90%;
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+.best-rooms .body .display{
+    display: none;
+}
+
+.best-rooms .body .gardens:hover .gardens-display,
+.best-rooms .body .hotel:hover .hotel-display,
+.best-rooms .body .suites:hover .suites-display,
+.best-rooms .body .signature:hover .signature-display{
+    display: block;
+}
+
+.best-rooms .body .gardens{
+    background-image: url(images/eko-gardens.jpg);
+    background-size: cover;
+}
+
+.best-rooms .body .hotel{
+    background-image: url(images/hotel\ image.jpg);
+    background-size: cover;
+}
+
+.best-rooms .body .suites{
+    background-image: url(images/eko-suites.jpg);
+    background-size: cover;
+}
+
+.best-rooms .body .signature{
+    background-image: url(images/eko-signature.jpg);
+    background-size: cover;
+}
+
+.best-rooms .rooms-btn-div{
+    display: block;
+    width: 80%;
+    margin:1px auto;
+    text-align: center;
+}
+
+.best-rooms  .rooms-btn{
+    color: #ffffff;
+}
+
+.best-rooms  .rooms-btn:hover{
+    color: #05303f;
+}
+
+
+/* ----------SECTION EVENT----------- */
+.eko-dining{
+    background-color: #f8f8f8;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.section-event .main-container{
+    display: inline-block;
+    width: 25%;
+}
+
+.section-event .main{
+    margin: 0 15px 15px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.section-event .main:hover{
+    box-shadow:  0px 0px 10px 10px rgba(0, 0, 0, .1) ;
+}
+
+.section-event .photo{
+    width: 100%;
+}
+
+.section-event .photo img{
+    width: 100%;
+}
+
+.section-event .main .body{
+    padding: 20px;
+}
+
+.section-event .main .body h3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #05303f;
+    margin-top: 0;
+}
+
+.section-event .main .body p{
+    line-height: 1.7;
+    color: #333333;
+    margin: 30px auto;
+}
+
+.section-event .main .body a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.section-event .main .body a:hover{
+    text-decoration: underline;
+}
+
+
+.top, .bottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.section-event .main-container h1{
+    text-align: center;
+    font-size: 6rem;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 20%;
+}
+
+.section-event .main-container .name-brown{
+    color: #cda274;
+}
+
+.section-event .main-container .name-black{
+    color: #05303f;
+}
+
+
+/* -------------FOOTER SECTION-------------- */
+footer{
+    background-color: #131010;
+    color: white;
+}
+
+footer .body{
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+}
+
+footer .body .top-container{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+/* ------------LEFT BODY ------------- */
+
+.top-container .left-body{
+    margin-left: 20px;
+    width: 25%;
+}
+
+
+.top-container .left-body ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 15px;
+    margin-left: 0;
+}
+
+.top-container .left-body ul a{
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 0;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bolder;
+    color: white;
+}
+
+.top-container .left-body ul .space{
+    margin: 17px 0;
+}
+
+
+/* ------------MIDDLE BODY ------------- */
+
+.top-container .middle-body{
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 35px;
+}
+
+.top-container .middle-body .container{
+    margin: 0 15px 10px ;
+    height: 97%;
+}
+
+.top-container .middle-body li{
+    list-style-type: none;
+    line-height: 1.8;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.top-container .middle-body .image{
+    text-align: center;
+}
+
+.top-container .middle-body img{
+    width: 100px;
+    margin-bottom: 27px;
+}
+
+
+/* ------------RIGHT BODY ------------- */
+
+.top-container .right-body{
+    margin-right: 15px;
+
+}
+
+.top-container .right-body .container{
+    height: 42%;
+}
+
+.top-container .right-body .content{
+    display: inline-block;
+    margin: 15px 0 10px 15px;
+}
+
+.top-container .right-body .content h5{
+    margin: 0;
+    letter-spacing: 5px;
+    color: #b87b3a;
+    font-weight: bolder;
+}
+
+.top-container .right-body .content p{
+    line-height: 1.5;
+}
+
+.top-container .right-body .content input{
+    height: 25px;
+    background-color: #131010;
+    border: 1px solid gray;
+    width: 80%;
+}
+
+
+/* ------------BOTTOM BODY ------------- */
+
+.bottom-container{
+    text-align: center;
+    width: 98%;
+    margin: auto;
+}
+
+.bottom-container p{
+    font-size: 12px;
+    padding: 20px;
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+/* 
+footer .body .left,
+footer .body .middle,
+footer .body .right
+{
+    display: inline-block;
+} */
+
+
+
+
+
+
+@media (max-width: 1020px){
+        /* --------TITLE HEADER FOR EACH SECTION-------- */
+
+        .section1-about {
+            padding-top: 50px;
+            padding-bottom: 5px;
+        
+        }
+    
+        .section1-about .header1{
+            width: 90%;
+            padding: auto ;
+            
+        }
+    
+        .section1-about h1{
+            font-size: 2.2rem;
+        }
+
+        .divider .bottom{
+            position: relative;
+            left: 1px;
+        }
+    
+        /* ---------BROWN btn------------ */
+    .btn{
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 15px;
+        letter-spacing: 1.5px;
+        color: #ffffff;
+        background-color: #cda274;
+    }
+    
+    .btn:hover{
+        box-shadow: none;
+        font-weight: bold;
+        color: #05303f;
+        background-color: #ffffff;
+        border: 1px solid #05303f;
+    }
+    
+        /* -----------NAVBER SECTION------ */
+    
+        .flex-container{
+            display: flex;
+            justify-content: left;
+            margin-left: 40px;
+        }
+    
+        .left{
+            display: none;
+        }
+    
+        .right{
+            display: none;
+        }
+
+        
+        
+
+    /* --------MAIN BODY SECTION------ */
+    
+    .main-img{
+        height: 400PX;
+        
+    }
+
+    .main-body{
+        height: 310px;
+    }
+
+    .flex-container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    .main .flex-item .dark-brown{
+        color:#50473e;
+        letter-spacing: 2px;
+    }
+    
+    .main .btn1{
+        text-align: center;
+    }
+    .main .btn1 button{
+        margin: auto;
+        font-size: .8rem;
+    }
+
+    .inner{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .main .flex-item{
+        text-align: center;
+        padding: 0 38px;
+        margin: 0 20px;
+
+        font-family: serif;
+        
+    }
+    .bottom{
+        position: relative;
+        right: 20px;
+    }
+
+      /* ---------SECTION1 ABOUT--------- */
+    
+    .flex-body{
+        display: block;
+        padding-bottom: 30px;
+
+    }
+
+    .about img{
+        width:100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    
+    .about .img{
+        width: 95%;
+        margin: auto;
+    }
+
+    .about .body{
+        background-color: #fff;
+        width: 79%;
+        display:block;
+        margin: auto;
+        padding: 20px;
+        position: relative;
+        bottom: 110px;
+    }
+
+    .about .body h3{
+        font-size: 1.5rem;
+        color: #05161b;
+        font-weight: normal;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    } 
+
+    /* --------- SECTION2 BEST-ROOMS-------- */
+
+    .best-rooms .body{
+        width: 95%;
+    }
+
+    .best-rooms .photos{
+        display: inline-block;
+        width: 448px;
+        margin-right: 20px;
+        height: 250px;
+        padding-left: 30px;
+    }
+
+    .best-rooms .body .flex-body1{
+        justify-content: space-between;
+    }
+
+    .best-rooms h2{
+        font-size: 24px;
+        margin-top: 10px;
+        font-weight: normal;
+    }
+
+    .best-rooms .body p{
+        width: 100%;
+        margin: 10px auto 10px 0;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #ffffff;
+    }
+
+    /* ----------SECTION EVENT----------- */
+
+    .section-event .main-container{
+        display: inline-block;
+        width: 50%;
+    }
+
+    .section-event .bottom{
+        position: relative;
+        left: 0;
+    }
+
+        /* -------------FOOTER SECTION-------------- */
+
+        footer .body{
+            width: 97%;
+        }
+} 
+
+
+
+
+@media (max-width: 600px){
+
+
+
+    /* --------MAIN BODY SECTION------ */
+    
+    .main-img{
+        height: 300PX;
+        
+    }
+
+    .main-body{
+        height: 110px;
+    }
+
+    .flex-container2{
+        display: none;
+    }
+
+    .main .flex-item .dark-brown{
+        color:#50473e;
+        letter-spacing: 2px;
+    }
+    
+    .main .btn1{
+        text-align: center;
+    }
+    .main .btn1 button{
+        margin: auto;
+        font-size: .8rem;
+    }
+
+    .inner{
+        margin-top: 32px;
+    }
+
+
+    /* ---------SECTION1 ABOUT--------- */
+
+
+
+    
+    .about .body{
+        background-color: #fff;
+        width: 83%;
+        padding: 20px;
+        position: relative;
+        bottom: 50px;
+    }
+    
+    .about .body .paragraph{
+        line-height: 1.;
+        font-size: 1rem;
+        margin: 10px auto;
+    }
+
+    .about .about-us{
+        font-size: 13px;
+        letter-spacing: 8px;
+        color: #cda274;
+        margin: 0 auto 10px;
+    }
+    
+    
+
+      /* --------- SECTION2 BEST-ROOMS-------- */
+
+    .best-rooms .body .flex-body1{
+        display: block;
+        width: 100%;
+    }
+
+    .best-rooms .photos{
+        display: block;
+        width: 92%;
+        height: 320px;
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .best-rooms .body p{
+        display: inline-block;
+        width: 90%;
+        margin: 80px auto 10px 0;
+        font-size: 1.rem;
+        line-height: 1.5;
+        color: #ffffff;
+    }
+    
+    
+    .best-rooms h2{
+        display: inline-block;
+        color: #ffffff;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #cda274;
+        width: 90%;
+        margin-top: 60px;
+        font-weight: normal;
+    }
+
+    /* ----------SECTION EVENT----------- */
+
+    .section-event .main-container {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .section-event .main-container .name{
+        display: none;
+    }
+
+    /* -------------FOOTER SECTION-------------- */
+
+    footer .body .top-container{
+        display: block;
+    }
+
+    .top-container .left-body,
+    .top-container .middle-body,
+    .top-container .right-body{
+        width: 95%;
+    }
+
+} 
+
